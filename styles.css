@@ -21,7 +21,7 @@ body {
 
 .bold {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   text-transform: uppercase;
 }
 
@@ -53,7 +53,7 @@ a:active {
 .resume-top {
   background: #fff;
   width: 800px;
-  padding: 40px 20px 10px 20px;
+  padding: 15px 30px 10px 30px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   border-bottom: 1px solid;
@@ -69,35 +69,36 @@ a:active {
   text-align: right;
 }
 
+.resume-top .list-item ul li {
+  padding-bottom: 1px;
+}
+
 .resume-top .icon {
   float: right;
   padding-left: 5px;
+  color: #199dc2;
 }
 
 .resume-body {
   background: #fff;
   width: 800px;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.resume-body .resume-left {
-  padding-right: 5px;
-}
-
-.resume-body .resume-right {
-  padding-left: 5px;
+  padding: 10px  30px;
 }
 
 .resume-body .title {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #199dc2;
 }
 
 .resume-body .program-name {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
+}
+
+.resume-body .stack {
+  font-weight: normal !important;
+  font-size: 12px !important;
+  font-style: italic !important;
 }
 
 .resume-body .place-name {
@@ -107,6 +108,7 @@ a:active {
 .resume-body .date {
   font-size: 12px;
   font-style: italic;
+  font-weight: normal !important;
 }
 
 .resume-body .link {
@@ -119,11 +121,11 @@ a:active {
 }
 
 .resume-body .detail ul li:last-child {
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .resume-body .school-div {
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 }
 
 .resume-body .sub-title {
@@ -132,16 +134,17 @@ a:active {
 
 .resume-body .skill-detail {
   padding-bottom: 5px;
+  font-weight: normal !important;
 }
 
-.resume-body .skill-detail:last-child {
+.resume-body .skill-div-last {
   padding-bottom: 10px;
-}
-
-.resume-body .ref:last-child {
-  padding-top: 5px;
 }
 
 .resume-body .ref-name {
   font-weight: bold;
+}
+
+.resume-body .ref-info {
+  font-style: normal !important;
 }
