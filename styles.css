@@ -13,7 +13,7 @@
 
 body {
   /* background: #199dc2; */
-  /* background: #84868a; */
+  background: #84868a;
   font-size: 14px;
   line-height: 22px;
   color: #555555;
@@ -21,7 +21,7 @@ body {
 
 .bold {
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -53,7 +53,7 @@ a:active {
 .resume-top {
   background: #fff;
   width: 800px;
-  padding: 20px 30px 10px 30px;
+  padding: 50px 50px 10px 50px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   border-bottom: 1px solid;
@@ -70,7 +70,7 @@ a:active {
 }
 
 .resume-top .list-item ul li {
-  padding-bottom: 1px;
+  padding-bottom: 2px;
 }
 
 .resume-top .icon {
@@ -82,22 +82,22 @@ a:active {
 .resume-body {
   background: #fff;
   width: 800px;
-  padding: 10px  30px;
+  padding: 20px 50px;
 }
 
 .resume-body .title {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: #199dc2;
 }
 
 .resume-body .program-name {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
 }
 
 .resume-body .stack {
   font-weight: normal !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
   font-style: italic !important;
 }
 
@@ -108,7 +108,6 @@ a:active {
 .resume-body .date {
   font-size: 12px;
   font-style: italic;
-  font-weight: normal !important;
 }
 
 .resume-body .link {
@@ -121,11 +120,15 @@ a:active {
 }
 
 .resume-body .detail ul li:last-child {
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
 
 .resume-body .school-div {
-  padding-bottom: 7px;
+  padding-bottom: 10px;
+}
+
+.resume-body .school-div-last {
+  padding-bottom: 20px;
 }
 
 .resume-body .sub-title {
@@ -133,18 +136,25 @@ a:active {
 }
 
 .resume-body .skill-detail {
-  padding-bottom: 5px;
-  font-weight: normal !important;
+  padding-bottom: 10px;
 }
 
 .resume-body .skill-div-last {
+  padding-bottom: 20px;
+}
+
+.resume-body .project-div {
+  margin-top: 100px;
+}
+
+.resume-body .ref {
   padding-bottom: 10px;
+}
+
+.resume-body .ref:last-child {
+  margin-bottom: 500px;
 }
 
 .resume-body .ref-name {
   font-weight: bold;
-}
-
-.resume-body .ref-info {
-  font-style: normal !important;
 }
