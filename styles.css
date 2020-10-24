@@ -12,8 +12,7 @@
 }
 
 body {
-  /* background: #199dc2; */
-  background: #84868a;
+  /* background: #84868a; */
   font-size: 14px;
   line-height: 22px;
   color: #555555;
@@ -53,7 +52,7 @@ a:active {
 .resume-top {
   background: #fff;
   width: 800px;
-  padding: 50px 50px 10px 50px;
+  padding: 60px 50px 20px 50px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   border-bottom: 1px solid;
